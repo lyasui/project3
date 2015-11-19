@@ -152,8 +152,7 @@ ul {
 
 /* tablet size */
 @media (min-width : 481px) {
-  a {
-     float: left;
+  float: none; 
 }
 
 /* desktop size */
