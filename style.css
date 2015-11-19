@@ -153,10 +153,8 @@ ul {
 
 
 @media screen and (max-width: 1080px) {
-  .nav li {
+  body {
     width: 100%;
-    line-height: 50px;
-    font-size: 1.2em;
   }
 
 </style>
