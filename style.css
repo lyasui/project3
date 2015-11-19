@@ -150,15 +150,5 @@ ul {
   padding: 1.75em 5.5% 2em;
 }
 
-/* tablet size */
-@media (min-width : 481px) {
-  float: none; 
-}
-
-/* desktop size */
-@media (min-width : 1025px) {
-  a {
-     float: none; /* override */
-   }
 
 </style>
