@@ -50,7 +50,7 @@ table {
 html { font-size: 10px; }
 h1 {font-size: 3.6rem; }
 h2 {font-size: 2.4rem; }
-p {font-size: 1.6rem; }
+p {font-size: 1.8rem; }
 a {font-size: 1.6rem;}
 
 
@@ -61,6 +61,8 @@ a {font-size: 1.6rem;}
 body {
   font-family: 'arial';
   background-color: #f9f9f6;
+  background: url("img/soulfire.jpg") no-repeat center center fixed; 
+  background-size: cover;
 }
 
 header {
@@ -70,13 +72,28 @@ header {
 
 a {
   text-decoration: none;
+  font-family: "jaf-bernina-sans-comp",sans-serif;
+}
+a:link {
+  text-decoration: none;
+  color: #F5FFFA;
+}
+
+a:visited {
+    color: #F5FFFA;
+}
+
+a:hover {
+  color: #9370DB;
 }
 
 .container {
-  width: 95%;
-  max-width: 1000px;
+  width: 99%;
+  max-width: 1080px;
   margin: 0 auto;
-  margin-top: 34px; 
+  margin-top: 400px;
+  color: white;
+  font-family: "jaf-bernina-sans-comp",sans-serif;
 }
 
 .menu {
@@ -105,28 +122,17 @@ nav ul li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-}
+    margin-top: 34px;
+  }
 
 @media screen and (min-width: 400px) {
+  .box {
+    width: 50%;
+    float: left;
+  }
+
   .container { 
     width: 50%; 
   }
 }
 
-@media screen and (min-width: 600px) {
-  .container { 
-    width: 40%; 
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .container {
-    width:33.3333%;  
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .container {
-    width: 25%;    
-  }
-}
