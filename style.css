@@ -48,7 +48,7 @@ table {
 
 /*typography*/
 html { font-size: 10px; }
-h1 {font-size: 3.6rem; }
+h1 {font-size: 3.8rem; }
 h2 {font-size: 2.4rem; }
 p {font-size: 1.8rem; }
 a {font-size: 1.6rem;}
@@ -60,14 +60,15 @@ li {font-size: 1.8rem;}
 }
 
 body {
+  border: 2px solid yellow;
   font-family: "jaf-bernina-sans-comp",sans-serif;
   background: url("img/background.jpeg") no-repeat center center fixed; 
   background-size: cover; 
   background-color: #f9f9f6;
-
 }
 
 header {
+  border: 2px solid pink;
   background-color: #df2020;
   height: 90px;
   opacity: 0.9;
@@ -92,8 +93,8 @@ a:hover {
 }
 
 .container {
-  width: 99%;
-  max-width: 1080px;
+  border: 2px solid green;
+  max-width: 1080px; 
   margin: 0 auto;
   margin-top: 50px;
   line-height: 20px;
@@ -102,18 +103,20 @@ a:hover {
 }
 
 .menu {
+  border: 4px solid orange;
   opacity: 0.9;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   background-color: #df2020; 
   height: 50px;
-
 }
 
 nav ul li {
+    border: 4px solid gray;
     opacity: 0.9;
-    padding-right: 60px; 
+    padding-right: 40px; 
+    padding-left: 40px;
     padding-top: 20px;
     font-family: sans-serif;
     letter-spacing: 4px; 
@@ -121,10 +124,10 @@ nav ul li {
     list-style: none;
     display: inline-block; 
 }
- 
 
 p {
   margin-top: 20px;
+  border: 2px solid blue;
 }
 
 .menuitems {
@@ -141,35 +144,11 @@ img {
   height: auto;
 }
 
-
-
-
-@media screen and (min-width: 320px) {
-  .box {
-    width: 50%;
-    float: left;
-  }
-
-  .container { 
-    width: 50%; 
-  }
+.fooddescription {
+  font-style: italic;
 }
 
-@media screen and (min-width: 400px) {
-  .box {
-    width: 50%;
-    float: left;
-  }
-
-  .container { 
-    width: 50%; 
-  }
+h1 {
+  font-weight: bold;
 }
-
-@media screen and (min-width: 320px) and (max-width: 568) and (-webkit-min-device-pixel-ratio:2){
-}
-
-@media screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
-}
-
 
