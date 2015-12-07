@@ -161,6 +161,36 @@ i {
 [class*="col-"] {
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+    html {
+    font-size: 10px; }
+
+    a {
+    font-size: 1.2rem; 
+    }
+
+    nav ul li {    
+    padding-right: 15px; 
+    padding-left: 15px;
+    padding-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+    font-size: 11px; }
+
+    a {
+    font-size: 1.4rem; 
+    }
+
+    nav ul li {    
+    padding-right: 25px; 
+    padding-left: 25px;
+    padding-top: 10px;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
