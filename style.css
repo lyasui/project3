@@ -104,13 +104,12 @@ a:hover {
 }
 
 .menu {
-  border: 4px solid orange;
   opacity: 0.9;
   margin-left: auto;
   margin-right: auto;
+
   text-align: center;
   background-color: #df2020; 
-  height: 50px;
 }
 
 nav ul li {
@@ -138,13 +137,20 @@ p {
   line-height: 35px;
 }
 
-img {
+/*img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 140px;
   height: auto;
+}*/
+
+.logoimg {
+  display:block;
+  width: 140px;
+  margin: 0 auto;
 }
+
 
 .fooddescription {
   font-style: italic;
@@ -165,7 +171,6 @@ h4 {
 i {
   font-style: italic;
 }
-
 
 .contact {
   border: 2px solid blue;
