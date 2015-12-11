@@ -72,7 +72,7 @@ body {
 header {
   border: 2px solid pink;
   background-color: #df2020;
-  height: 90px;
+  height: 155px;
   opacity: 0.9;
 }
 
@@ -104,10 +104,9 @@ a:hover {
 }
 
 .menu {
+  border: 2px solid orange;
   opacity: 0.9;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin: 0 auto;
   text-align: center;
   background-color: #df2020; 
 }
@@ -190,7 +189,11 @@ i {
 @media only screen and (max-width: 600px) {
     html {
     font-size: 10px; }
-
+    
+    .container {
+    text-align: center;
+    }
+    
     a {
     font-size: 1rem; 
     }
@@ -199,7 +202,12 @@ i {
 
 @media only screen and (max-width: 800px) {
     html {
-    font-size: 10px; }
+    font-size: 10px;
+    }
+
+    .container {
+    text-align: center;
+    }
 
     a {
     font-size: 1.4rem; 
