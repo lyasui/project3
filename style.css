@@ -62,7 +62,6 @@ li {font-size: 1.8rem;}
 }
 
 body {
-  border: 2px solid yellow;
   font-family: "jaf-bernina-sans-comp",sans-serif;
   background: url("img/background.jpeg") no-repeat center center fixed; 
   background-size: cover; 
@@ -70,7 +69,6 @@ body {
 }
 
 header {
-  border: 2px solid pink;
   background-color: #df2020;
   height: 155px;
   opacity: 0.9;
@@ -101,10 +99,11 @@ a:hover {
   line-height: 20px;
   color: white;
   font-family: "jaf-bernina-sans-comp",sans-serif;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .menu {
-  border: 2px solid orange;
   opacity: 0.9;
   margin: 0 auto;
   text-align: center;
@@ -112,7 +111,6 @@ a:hover {
 }
 
 nav ul li {
-    border: 4px solid gray;
     opacity: 0.9;
     padding-right: 40px; 
     padding-left: 40px;
@@ -192,6 +190,9 @@ i {
     
     .container {
     text-align: center;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     }
     
     a {
@@ -207,6 +208,7 @@ i {
 
     .container {
     text-align: center;
+    margin-top: 40px;
     }
 
     a {
