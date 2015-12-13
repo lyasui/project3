@@ -70,7 +70,7 @@ body {
 
 .aboutbg {
   background: url("img/homebg.jpg") no-repeat center fixed; 
-  background-size: auto 100%; 
+  background-size: cover; 
   background-color: #f9f9f6;
 }
 
@@ -142,7 +142,7 @@ nav ul li {
 p {
   margin-top: 20px;
   line-height: 25px;
-  text-indent: 50px;
+  text-indent: 30px;
 }
 
 .menuitems {
