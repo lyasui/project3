@@ -99,8 +99,19 @@ a:hover {
   line-height: 20px;
   color: white;
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.menucontainer {
+  max-width: 1080px; 
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 20px;
+  color: white;
+  font-family: "jaf-bernina-sans-comp",sans-serif;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .menu {
@@ -170,7 +181,6 @@ i {
 }
 
 .contact {
-  border: 2px solid blue;
   max-width: 1080px; 
   text-align: center;
   margin: 0 auto;
@@ -178,6 +188,10 @@ i {
   line-height: 20px;
   color: white;
   font-family: "jaf-bernina-sans-comp",sans-serif;
+}
+
+.phonenumber {
+  font-size: 2.0rem;
 }
 
 /* For mobile phones: */
