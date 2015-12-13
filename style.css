@@ -71,7 +71,8 @@ body {
 .aboutbg {
   font-family: "jaf-bernina-sans-comp",sans-serif;
   background: url("img/homebg1.jpg") no-repeat center fixed; 
-  background-size: cover; 
+  background-size: 100% auto ; 
+  background-color: #f9f9f6;
 }
 
 header {
@@ -105,8 +106,8 @@ a:hover {
   line-height: 20px;
   color: white;
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  padding-left: 180px;
-  padding-right: 180px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .menucontainer {
@@ -220,13 +221,13 @@ iframe {
 @media only screen and (max-width: 600px) {
     html {
     font-size: 10px; }
-    
-    .box {
-      width: 100%;
-      height: 100%;
-    }
 
+    .aboutbg {
+      width: 100%;
+    }
+    
     .container {
+    text-align: left;
     margin-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -243,9 +244,15 @@ iframe {
     font-size: 10px;
     }
 
+    .aboutbg {
+      width: 100%;
+    }
+
     .container {
-    text-align: center;
+    text-align: left;
     margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     }
 
     a {
