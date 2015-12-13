@@ -219,6 +219,10 @@ iframe {
     html {
     font-size: 10px; }
     
+    .box {
+      width: 100%;
+    }
+    
     .container {
     margin-top: 40px;
     padding-left: 40px;
