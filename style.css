@@ -63,7 +63,7 @@ li {font-size: 1.8rem;}
 
 body {
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  background: url("img/background.jpeg") no-repeat center center fixed; 
+  background: url("img/background.jpeg") no-repeat center fixed; 
   background-size: cover; 
   background-color: #f9f9f6;
 }
@@ -166,6 +166,7 @@ p {
 
 h1 {
   font-weight: bold;
+  line-height: 30px;
 }
 
 h3 {
@@ -190,6 +191,11 @@ i {
   font-family: "jaf-bernina-sans-comp",sans-serif;
 }
 
+.box {
+    width: 100%;
+    height: 100%;
+}
+
 .phonenumber {
   font-size: 2.0rem;
 }
@@ -203,6 +209,7 @@ iframe {
   height: 300px;
   margin-top: 20px;
 }
+
 
 /* For mobile phones: */
 [class*="col-"] {
