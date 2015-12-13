@@ -99,8 +99,8 @@ a:hover {
   line-height: 20px;
   color: white;
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .menu {
@@ -189,10 +189,9 @@ i {
     font-size: 10px; }
     
     .container {
-    text-align: center;
     margin-top: 40px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
     }
     
     a {
