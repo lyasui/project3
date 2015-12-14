@@ -66,6 +66,7 @@ body {
   font-family: "jaf-bernina-sans-comp",sans-serif;
   background: url("img/background.jpeg") center fixed; 
   background-repeat: repeat-y;
+  background-attachment: fixed;
   background-color: #f9f9f6;
 }
 
