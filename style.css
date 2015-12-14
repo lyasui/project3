@@ -65,7 +65,7 @@ li {font-size: 1.8rem;}
 body {
   font-family: "jaf-bernina-sans-comp",sans-serif;
   background: url("img/background.jpeg") center fixed; 
-  background-repeat: repeat-x;
+  background-repeat: repeat-y;
   background-color: #f9f9f6;
 }
 
