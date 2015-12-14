@@ -227,6 +227,10 @@ iframe {
       width: 100%;
     }
     
+    body {
+      width: 100%;
+    }
+    
     .container {
     text-align: left;
     margin-top: 40px;
