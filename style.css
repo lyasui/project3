@@ -64,7 +64,8 @@ li {font-size: 1.8rem;}
 
 body {
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  background: url("img/background.jpeg") repeat center fixed; 
+  background: url("img/background.jpeg") center fixed; 
+  background-repeat: repeat-y;
   background-size: cover; 
   background-color: #f9f9f6;
 }
@@ -230,7 +231,7 @@ iframe {
     body {
       width: 100%;
     }
-    
+
     .container {
     text-align: left;
     margin-top: 40px;
